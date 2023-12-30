@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- app -->
+    <string name="app_name">News4</string>
+
+    <!-- home_graph -->
+    <string name="fragmentFeedLabel">News</string>
+
+    <!-- bookmarks_graph -->
+    <string name="fragmentBookmarkLabel">Saved News</string>
+
+    <!-- search_graph -->
+    <string name="fragmentSearchLabel">Search</string>
+
+    <!-- fragment_detail -->
+    <string name="fragmentDetailLabel">Detail</string>
+
+    <!-- fragment_search -->
+    <string name="searchEditTextHint">Enter a keyword</string>
+
+    <!-- menu_bottom_nav -->
+    <string name="bottomNavHomeTitle">Home</string>
+    <string name="bottomNavSearchTitle">Search</string>
+    <string name="bottomNavBookmarksTitle">Bookmarks</string>
+
+    <!-- item_story_block -->
+    <string name="itemStoryBlockImage">Image</string>
+    <string name="itemStoryBlockButton">Bookmark Button</string>
+    <string name="itemStoryBlockTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget sapien condimentum, mollis quam sit amet, feugiat dolor.</string>
+    <string name="itemStoryBlockAuthor">Nulla interdum, urna ac iaculis ornare, ex metus rutrum arcu, quis tincidunt libero nulla vel lectus.</string>
+
+    <!-- item_story_horizontal -->
+    <string name="itemStoryHorizontalImage">Image</string>
+    <string name="itemStoryHorizontalTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget sapien condimentum, mollis quam sit amet, feugiat dolor.</string>
+    <string name="itemStoryHorizontalAuthor">Nulla interdum, urna ac iaculis ornare, ex metus rutrum arcu, quis tincidunt libero nulla vel lectus.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

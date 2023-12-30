@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemStoryBlockLayout"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/itemStoryBlockImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/itemStoryBlockImage"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_background" />
+
+        <ImageView
+            android:id="@+id/itemStoryBlockButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/itemStoryBlockButton"
+            android:scaleType="center"
+            android:src="@drawable/ic_bookmark_outline_white" />
+
+        <TextView
+            android:id="@+id/itemStoryBlockTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/itemStoryBlockAuthor"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="8dp"
+            android:ellipsize="end"
+            android:minLines="1"
+            android:maxLines="2"
+            android:text="@string/itemStoryBlockTitle"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemStoryBlockAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginVertical="4dp"
+            android:ellipsize="end"
+            android:minLines="1"
+            android:maxLines="1"
+            android:text="@string/itemStoryBlockAuthor"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
